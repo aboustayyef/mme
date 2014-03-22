@@ -3,7 +3,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-<link rel="shortcut icon" href="http://beirutspring.com/favicon.ico?v=001" />
+<link rel="shortcut icon" href="http://mustapha.me/favicon.ico?v=001" />
 <title><?php bloginfo('name'); ?> | <?php if( is_home() ) : echo bloginfo( 'description' ); endif; ?><?php wp_title( '', true ); ?></title>
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
