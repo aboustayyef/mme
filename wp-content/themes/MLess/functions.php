@@ -35,3 +35,8 @@ function less_scripts()  {
   
 }
 add_action( 'wp_enqueue_scripts', 'less_scripts' );
+
+function disqus_count($disqus_shortname) {
+    wp_enqueue_script('disqus_count','http://'.$disqus_shortname.'.disqus.com/count.js');
+    echo '<a href="'. get_permalink() .'#disqus_thread"></a>';
+}
