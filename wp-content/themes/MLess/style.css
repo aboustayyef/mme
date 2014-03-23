@@ -742,6 +742,10 @@ article .the-content img {
   max-width:720px;
 }
 
+.wp-caption{
+  font-size: 0.9em;
+  color: #929292;
+}
 
 /*small screens */
 @media all and (max-width:720px){
