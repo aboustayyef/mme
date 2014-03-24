@@ -40,3 +40,19 @@ function disqus_count($disqus_shortname) {
     wp_enqueue_script('disqus_count','http://'.$disqus_shortname.'.disqus.com/count.js');
     echo '<a href="'. get_permalink() .'#disqus_thread"></a>';
 }
+function mustapha_me_share($link){
+	?>
+	<?php 
+		$twitterTextToShare = get_the_title().' '.urlencode(wp_get_shortlink()).' by @beirutspring';
+		$twitterURL = 'https://twitter.com/home?status='.$twitterTextToShare;
+		$facebookURL = 'https://www.facebook.com/sharer/sharer.php?u='.urlencode(wp_get_shortlink());
+	?>
+	<div class ="sharing_menu">
+		<ul>
+			<li class ="share_header">Share</li>
+			<a href="<?php echo $facebookURL ?>"><li><img width="14px" height="auto" src="<?php echo get_site_url().'/wp-content/themes/MLess/icons/facebook28.png'; ?>" alt=""><span class ="sharetext">Facebook</span></li></a>
+			<a href="<?php echo $twitterURL ?>"><li><img width="14px" height="auto" src="<?php echo get_site_url().'/wp-content/themes/MLess/icons/twitter28.png'; ?>" alt=""><span class ="sharetext">Twitter</span></li></a>
+		</ul>
+	</div>
+	<?php
+}

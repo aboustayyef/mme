@@ -90,6 +90,8 @@
 						</div><!-- the-content -->
 						
 						<div class="meta clearfix">
+							<?php mustapha_me_share('test') ?>
+
 							<!--<div class="category"><?php echo get_the_category_list(); ?></div>-->
 							<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); ?></div>
 						</div><!-- Meta -->

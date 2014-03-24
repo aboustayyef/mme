@@ -727,6 +727,55 @@ html[xmlns] .clearfix {
 
 /* This section of the css file is adjusted by Mustapha */
 
+div.tags{
+  margin-bottom:7px;
+}
+
+div.sharing_menu{
+  width:100%;
+}
+
+div.sharing_menu ul{
+  margin:0;
+  margin-top:10px;
+  margin-bottom:10px;
+  list-style-type: none;
+  overflow: auto;
+}
+
+div.sharing_menu a{
+  color:white;
+}
+div.sharing_menu img{
+  vertical-align: top;
+}
+div.sharing_menu .sharetext{
+  line-height: 16px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+div.sharing_menu ul li{
+  display: inline-block;
+  margin-right:3px;
+  padding:5px 8px;
+  background: black;
+}
+
+div.sharing_menu ul li.share_header{
+  background: white;
+  font-size: 12px;
+  border: 1px solid black;
+  margin-right: 3px;
+}
+div.sharing_menu ul li.share_header:hover{
+  background: none;
+}
+
+div.sharing_menu ul li:hover{
+  background: #b12530;
+}
+
 div.gravatar{
   width: 150px;
   -moz-border-radius: 0%;
