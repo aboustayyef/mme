@@ -40,7 +40,7 @@ function disqus_count($disqus_shortname) {
     wp_enqueue_script('disqus_count','http://'.$disqus_shortname.'.disqus.com/count.js');
     echo '<a href="'. get_permalink() .'#disqus_thread"></a>';
 }
-function mustapha_me_share($link){
+function mustapha_me_share(){
 	?>
 	<?php 
 		$twitterTextToShare = get_the_title().' '.urlencode(wp_get_shortlink()).' by @beirutspring';

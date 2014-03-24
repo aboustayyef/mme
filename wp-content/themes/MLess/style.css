@@ -503,7 +503,7 @@ header #brand h1 a {
 header #brand h1 span {
   font-weight: 200;
   color: #888888;
-  text-transform: lowercase;
+  text-transform: initial;
 }
 header nav {
   float: left;
@@ -817,6 +817,3 @@ article .the-content img {
   }
 
 }
-
-
-
