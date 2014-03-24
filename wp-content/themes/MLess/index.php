@@ -90,7 +90,7 @@
 						</div><!-- the-content -->
 						
 						<div class="meta clearfix">
-							<?php mustapha_me_share('test') ?>
+							<?php mustapha_me_share() ?>
 
 							<!--<div class="category"><?php echo get_the_category_list(); ?></div>-->
 							<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); ?></div>
@@ -151,8 +151,10 @@
 						</div><!-- the-content -->
 						
 						<div class="meta clearfix">
-							<div class="category"><?php echo get_the_category_list(); ?></div>
-							<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); ?></div>
+							<?php mustapha_me_share() ?>
+
+<!-- 							<div class="category"><?php echo get_the_category_list(); ?></div>-->
+ 									<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); ?></div>
 						</div><!-- Meta -->						
 	
 						<div>
