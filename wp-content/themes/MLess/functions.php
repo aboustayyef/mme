@@ -25,7 +25,7 @@ register_nav_menus(
 function less_scripts()  { 
 
 	// theme styles
-	wp_enqueue_style( 'less-style', get_template_directory_uri() . '/style.css', '10000', 'all' );
+	wp_enqueue_style( 'less-style', get_template_directory_uri() . '/style.css?v=1.1', '10000', 'all' );
 			
 	// add fitvid
 	wp_enqueue_script( 'less-fitvid', get_template_directory_uri() . '/js/jquery.fitvids.js', array( 'jquery' ), LESS_VERSION, true );
