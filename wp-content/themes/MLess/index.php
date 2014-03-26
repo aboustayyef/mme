@@ -39,7 +39,19 @@
 		<div id="brand">
 			<h1 class="site-title"><span><?php echo get_bloginfo( 'description' ); ?></span></h1>
 			<nav role="navigation" class="site-navigation main-navigation">
-				<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+				<div class="menu">
+					<ul>
+						<li class="page_item page-item-2">
+							<a href="http://mustapha.me/about/">About Me</a>
+						</li>
+						<li>
+							<form id="searchForm" method="get" action="http://google.com/search">
+								<input type="hidden" name="sitesearch" value="http://mustapha.me/">
+								<input type="search" id="s" name="q" placeholder="Search this blog">
+							</form>
+						</li>
+					</ul>
+				</div>
 			</nav><!-- .site-navigation .main-navigation -->
 		</div><!-- /brand -->
 	

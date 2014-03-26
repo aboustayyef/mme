@@ -1,0 +1,140 @@
+/* This section of the css file is adjusted by Mustapha */
+
+div.tags{
+  margin-bottom:7px;
+}
+
+div.sharing_menu{
+  width:100%;
+}
+
+div.sharing_menu ul{
+  margin:0;
+  margin-top:10px;
+  margin-bottom:10px;
+  list-style-type: none;
+  overflow: auto;
+}
+
+div.sharing_menu a{
+  color:white;
+}
+div.sharing_menu img{
+  vertical-align: top;
+}
+div.sharing_menu .sharetext{
+  line-height: 16px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+div.sharing_menu ul li{
+  display: inline-block;
+  margin-right:3px;
+  padding:5px 8px;
+  background: black;
+}
+
+div.sharing_menu ul li.share_header{
+  background: white;
+  font-size: 12px;
+  border: 1px solid black;
+  margin-right: 3px;
+}
+div.sharing_menu ul li.share_header:hover{
+  background: none;
+}
+
+div.sharing_menu ul li:hover{
+  background: #b12530;
+}
+
+div.gravatar{
+  width: 150px;
+  -moz-border-radius: 0%;
+  -webkit-border-radius: 0%;
+  border-radius: 0%;
+}
+
+a, header nav ul li a {
+  color: #b12530;
+}
+article .the-content img {
+  width: inherit;
+  max-width:720px;
+}
+
+.wp-caption-text{
+  font-size: 0.9em;
+  color: #929292;
+}
+
+img.flushLeft {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-right: 2rem;
+  margin-bottom: 4rem;
+}
+
+img.flushRight {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  margin-left: 2rem;
+  margin-bottom: 4rem;
+}
+
+#searchForm{
+  input{
+    width:100%;
+    border: 1px solid lighten(silver,20);
+    margin-top: 4px;
+    padding: 4px 10px;
+    font-size: 14px;
+    font-size:1.4rem;
+    border-radius:20px;
+
+    &:focus{
+      border:1px solid silver;
+      outline:none;
+    }
+  }
+    ::-webkit-input-placeholder {
+     color: lighten(silver,15);
+    }
+
+    :-moz-placeholder { /* Firefox 18- */
+       color: lighten(silver,15);  
+    }
+
+    ::-moz-placeholder {  /* Firefox 19+ */
+       color: lighten(silver,15);  
+    }
+
+    :-ms-input-placeholder {  
+       color: lighten(silver,15);  
+    }
+}
+
+
+/*small screens */
+@media all and (max-width:720px){
+  
+  article .the-content img.flushRight , article .the-content img.flushLeft{
+    max-width:40%;
+  }
+
+  html{
+    font-size: 50%;
+  }
+
+  article .the-content img {
+    max-width:100%;
+  }
+
+  header nav ul li {
+    padding-right:2px;
+  }
+
+}
