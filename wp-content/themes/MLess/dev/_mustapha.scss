@@ -88,7 +88,7 @@ img.flushRight {
 #searchForm{
   input{
     width:100%;
-    border: 1px solid lighten(silver,20);
+    border: 1px solid lighten(silver,5);
     margin-top: 4px;
     padding: 4px 10px;
     font-size: 14px;
@@ -101,19 +101,19 @@ img.flushRight {
     }
   }
     ::-webkit-input-placeholder {
-     color: lighten(silver,15);
+     color: lighten(silver,5);
     }
 
     :-moz-placeholder { /* Firefox 18- */
-       color: lighten(silver,15);  
+       color: lighten(silver,5);  
     }
 
     ::-moz-placeholder {  /* Firefox 19+ */
-       color: lighten(silver,15);  
+       color: lighten(silver,5);  
     }
 
     :-ms-input-placeholder {  
-       color: lighten(silver,15);  
+       color: lighten(silver,5);  
     }
 }
 
